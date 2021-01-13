@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family:  Arial, Helvetica, sans-serif; 
+  line-height: 1.9;
+  background-color: rgb(217, 217, 217);
+}
+
+
+
+li{
+	/* list-style: none; */
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+header{
+	text-align: center;
+	border-bottom: solid ;
+	border-bottom-width:thin;
+	padding-bottom: 2rem;
+}
+
+.t1{
+	font-size:1.2rem;
+}
+
+#name {
+	font-size: 3.75rem;
+}
+
+#box{
+	margin: auto;
+	max-width: 1100px;
+}
+
+#summary{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#skill{
+	padding-bottom: 2rem;
+}
+
+#skillbox{
+	display: flex;
+	justify-content:space-around ;
+}
+
+.ex1{
+	padding-bottom: 1.5rem;
+}
+
+.ex2{
+	padding-left: 3rem;
+}
+
+#education{
+	padding-top: 2rem;
+}
+
+footer{
+	text-align: center;
+	border-top: solid;
+	border-top-width: thin;
+	margin-top: 1rem;
+	font-style:oblique;
+}
+
+
+
